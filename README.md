@@ -34,6 +34,8 @@
 
 ## git checkout -- <filename> - removes and changes made to the file and reverts its status back to unmodified
 
+## git branch - displays current branch name and all branches in current repository
+
 ## git branch <branchname> - create a new branch with the given name
 
 ## git checkout <branchname> - switch to a new branch
@@ -41,3 +43,11 @@
 ## git checkout -b <branchname> - create new branch and switch to it
 
 ## git branch -d <branchname> - delete existing branch with given name
+
+## git merge <branchname>  - to merge a history of  different branches into the active branch
+
+
+##Merge Steps 
+1. Checkout the branch we want to merge changes into.
+2. Git merge <topic branch with changes>.
+3. 
